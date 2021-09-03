@@ -66,4 +66,11 @@
   <ItemGroup>
     <RefactorLog Include="SQL BDPrac1.refactorlog" />
   </ItemGroup>
+<<<<<<< Updated upstream
+=======
+  <ItemGroup>
+    <None Include="SQL BDPrac1.publish.xml" />
+    <None Include="SQL BDPrac1_1.publish.xml" />
+  </ItemGroup>
+>>>>>>> Stashed changes
 </Project>
