@@ -1,0 +1,10 @@
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\bin\Debug\FormBDPrac1.exe.config
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\bin\Debug\FormBDPrac1.exe
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\bin\Debug\FormBDPrac1.pdb
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\obj\Debug\FormBDPrac1.csproj.AssemblyReference.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\obj\Debug\FormBDPrac1.Form1.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\obj\Debug\FormBDPrac1.Properties.Resources.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\obj\Debug\FormBDPrac1.csproj.GenerateResource.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\obj\Debug\FormBDPrac1.csproj.CoreCompileInputs.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\obj\Debug\FormBDPrac1.exe
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\FormBDPrac1\obj\Debug\FormBDPrac1.pdb
