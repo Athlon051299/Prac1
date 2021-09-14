@@ -1,0 +1,10 @@
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\bin\Debug\BDprac1.dacpac
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\bin\Debug\BDprac1.dll
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\bin\Debug\BDprac1.pdb
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\obj\Debug\BDprac1.sqlproj.AssemblyReference.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\obj\Debug\Model.xml
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\obj\Debug\refactor.xml
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\obj\Debug\postdeploy.sql
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\obj\Debug\predeploy.sql
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\obj\Debug\BDprac1.dll
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\BDprac1\obj\Debug\BDprac1.pdb
