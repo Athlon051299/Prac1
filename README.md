@@ -1,8 +1,10 @@
 Prac1
 
-Marcos Aguilar Beleño
+//Marcos Aguilar Beleño
 
-Kevin Armando Palomino 
+//Kevin Armando Palomino 
+
+
 <<<<<<< Updated upstream
 =======
 
