@@ -1,0 +1,15 @@
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\bin\Debug\ORMPrac1.exe.config
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\bin\Debug\ORMPrac1.exe
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\bin\Debug\ORMPrac1.pdb
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\bin\Debug\EntityFramework.dll
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\bin\Debug\EntityFramework.xml
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.AssemblyReference.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.Form1.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.Properties.Resources.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.GenerateResource.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.CoreCompileInputs.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.CopyComplete
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.exe
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.pdb
