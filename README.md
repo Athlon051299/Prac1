@@ -4,6 +4,8 @@ Prac1
 
 //Kevin Armando Palomino 
 
+//Jonatan Gomez 
+
 
 <<<<<<< Updated upstream
 =======
