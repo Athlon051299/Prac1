@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+    
 namespace FormBDPrac1
 {
     public partial class Form1 : Form
@@ -23,17 +23,26 @@ namespace FormBDPrac1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            con.Open();
-            MessageBox.Show("Conexion creada con exito!");
-            con.Close();
+            try
+            {
+                con.Open();
+                MessageBox.Show("Conexion creada con exito!");
+                con.Close();
+            }
+            catch
+            {
+                con.Open();
+                MessageBox.Show("Error al crear la conexion!");
+                con.Close();
 
+            }
     }
 
         private void button1_Click(object sender, EventArgs e)
         {
             con.Open();
 
-            string query = "Select * from Apoderado";
+            string query = "Select * from Alumno where Edad > 13 And Edad < 15 ";
             cmd = new SqlCommand(query, con);
 
             //Set the SqlAdapter object
@@ -51,6 +60,13 @@ namespace FormBDPrac1
             dataGridView1.DataSource = ds.Tables[0];
 
             con.Close();
+        }
+        
+        
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
     
