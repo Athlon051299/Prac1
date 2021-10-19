@@ -4,10 +4,10 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="f95ef4129a994842a2b21d586aaf2536" Name="Diagram1" ZoomLevel="89">
+      <Diagram DiagramId="f95ef4129a994842a2b21d586aaf2536" Name="Diagram1" ZoomLevel="87">
         <EntityTypeShape EntityType="BDprac1Model.C__RefactorLog" Width="1.5" PointX="5.75" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="BDprac1Model.ALUMNO" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="BDprac1Model.APODERADO" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDprac1Model.APODERADO" Width="1.5" PointX="4" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="BDprac1Model.CURSO" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
         <EntityTypeShape EntityType="BDprac1Model.INSCRITO" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
         <AssociationConnector Association="BDprac1Model.FK_APODERADO_ALUMNO" ManuallyRouted="false" />

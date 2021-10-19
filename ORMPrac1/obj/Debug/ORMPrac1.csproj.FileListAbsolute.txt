@@ -10,6 +10,5 @@ C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.Properties.Resources.resources
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.GenerateResource.cache
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.CoreCompileInputs.cache
-C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.csproj.CopyComplete
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.exe
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\ORMPrac1\obj\Debug\ORMPrac1.pdb

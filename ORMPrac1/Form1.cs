@@ -28,7 +28,8 @@ namespace ORMPrac1
 
         //Este es el metodo para el llenado del texbox 
         public void Llenar ()
-        {
+        { 
+            //Limite
             if (indice < 0)
                 indice = 0;
 
@@ -135,6 +136,11 @@ namespace ORMPrac1
             indice++;
             //Metodo llenar
             Llenar();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 
