@@ -1,0 +1,130 @@
+﻿/*
+Script de implementación para BDMercamax
+
+Una herramienta generó este código.
+Los cambios realizados en este archivo podrían generar un comportamiento incorrecto y se perderán si
+se vuelve a generar el código.
+*/
+
+GO
+SET ANSI_NULLS, ANSI_PADDING, ANSI_WARNINGS, ARITHABORT, CONCAT_NULL_YIELDS_NULL, QUOTED_IDENTIFIER ON;
+
+SET NUMERIC_ROUNDABORT OFF;
+
+
+GO
+:setvar DatabaseName "BDMercamax"
+:setvar DefaultFilePrefix "BDMercamax"
+:setvar DefaultDataPath "C:\Users\maarc\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+:setvar DefaultLogPath "C:\Users\maarc\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+
+GO
+:on error exit
+GO
+/*
+Detectar el modo SQLCMD y deshabilitar la ejecución del script si no se admite el modo SQLCMD.
+Para volver a habilitar el script después de habilitar el modo SQLCMD, ejecute lo siguiente:
+SET NOEXEC OFF; 
+*/
+:setvar __IsSqlCmdEnabled "True"
+GO
+IF N'$(__IsSqlCmdEnabled)' NOT LIKE N'True'
+    BEGIN
+        PRINT N'El modo SQLCMD debe estar habilitado para ejecutar correctamente este script.';
+        SET NOEXEC ON;
+    END
+
+
+GO
+USE [$(DatabaseName)];
+
+
+GO
+PRINT N'Creando Clave externa [dbo].[FK_Producto_ToTable]...';
+
+
+GO
+ALTER TABLE [dbo].[Producto] WITH NOCHECK
+    ADD CONSTRAINT [FK_Producto_ToTable] FOREIGN KEY ([nit]) REFERENCES [dbo].[Proveedor] ([nit]);
+
+
+GO
+PRINT N'Creando Clave externa [dbo].[FK_Producto_ToTable_1]...';
+
+
+GO
+ALTER TABLE [dbo].[Producto] WITH NOCHECK
+    ADD CONSTRAINT [FK_Producto_ToTable_1] FOREIGN KEY ([id_tipo]) REFERENCES [dbo].[Tipo_Producto] ([id_tipo]);
+
+
+GO
+PRINT N'Creando Vista [dbo].[VerProductos]...';
+
+
+GO
+CREATE VIEW [dbo].[VerProductos]
+	AS
+	SELECT nombre_producto, precio FROM Producto
+GO
+PRINT N'Modificando Procedimiento [dbo].[LoginCliente]...';
+
+
+GO
+ALTER PROCEDURE [dbo].[LoginCliente]
+	@user int
+	
+AS
+	SELECT cc_cliente, nombre_apellido_cliente FROM Cliente WHERE cc_Cliente=@user
+RETURN 0
+GO
+PRINT N'Creando Procedimiento [dbo].[VerProductoBodega]...';
+
+
+GO
+CREATE PROCEDURE [dbo].[VerProductoBodega]
+	@codProd int 
+	
+AS
+	SELECT cantidad_bodega, secciÓn_bodega fROM LugarStock WHERE barcode_producto=@codProd
+RETURN 0
+GO
+PRINT N'Creando Procedimiento [dbo].[VerProductoGondola]...';
+
+
+GO
+CREATE PROCEDURE [dbo].[VerProductoGondola]
+	@codProd int
+	
+AS
+	SELECT cantidad_gondola, sección_gondola FROM LugarStock WHERE barcode_producto=@codProd
+RETURN 0
+GO
+PRINT N'Creando Procedimiento [dbo].[VerPuntos]...';
+
+
+GO
+CREATE PROCEDURE [dbo].[VerPuntos]
+	@user int
+	
+AS
+	SELECT puntos_acumulados FROM Cliente WHERE cc_cliente=@user
+RETURN 0
+GO
+PRINT N'Comprobando los datos existentes con las restricciones recién creadas';
+
+
+GO
+USE [$(DatabaseName)];
+
+
+GO
+ALTER TABLE [dbo].[Producto] WITH CHECK CHECK CONSTRAINT [FK_Producto_ToTable];
+
+ALTER TABLE [dbo].[Producto] WITH CHECK CHECK CONSTRAINT [FK_Producto_ToTable_1];
+
+
+GO
+PRINT N'Actualización completada.';
+
+
+GO
