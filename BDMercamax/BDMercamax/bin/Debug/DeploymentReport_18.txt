@@ -1,0 +1,22 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[FK_Producto_ToTable] (Clave externa)
+       [dbo].[FK_Producto_ToTable_1] (Clave externa)
+       [dbo].[VerProductos] (Vista)
+       [dbo].[VerProductoBodega] (Procedimiento)
+       [dbo].[VerProductoGondola] (Procedimiento)
+       [dbo].[VerPuntos] (Procedimiento)
+     Modificar
+       [dbo].[LoginCliente] (Procedimiento)
+
+** Acciones de compatibilidad
