@@ -9,3 +9,18 @@ G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.exe
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.pdb
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.LoginForm.resources
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.MainForm.resources
+G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.AddClienteForm.resources
+G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.ComprarForm.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\bin\Debug\MercamaxApp.exe.config
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\bin\Debug\MercamaxApp.exe
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\bin\Debug\MercamaxApp.pdb
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.csproj.AssemblyReference.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.AddClienteForm.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.ComprarForm.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.LoginForm.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.MainForm.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.Properties.Resources.resources
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.csproj.GenerateResource.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.csproj.CoreCompileInputs.cache
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.exe
+C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.pdb

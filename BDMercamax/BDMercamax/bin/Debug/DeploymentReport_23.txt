@@ -1,0 +1,22 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Cambiar nombre
+       [dbo].[LugarStock].[seccion_bodega] (Columna)
+       [dbo].[LugarStock].[seccion_gondola] (Columna)
+     Modificar
+       [dbo].[VerProductoBodega] (Procedimiento)
+       [dbo].[VerProductoGondola] (Procedimiento)
+     Crear
+       [dbo].[ActualizarGondola] (Procedimiento)
+       [dbo].[ActualizarPuntos] (Procedimiento)
+
+** Acciones de compatibilidad

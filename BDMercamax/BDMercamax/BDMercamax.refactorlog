@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="3122cd56-c82d-4a6f-9518-17a48b033acd" ChangeDateTime="11/19/2021 02:41:53">
+    <Property Name="ElementName" Value="[dbo].[LugarStock].[sección_bodega]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LugarStock]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="seccion_bodega" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3fbd021d-a382-4d99-909e-a3a9bcb82d9d" ChangeDateTime="11/19/2021 02:41:58">
+    <Property Name="ElementName" Value="[dbo].[LugarStock].[sección_gondola]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LugarStock]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="seccion_gondola" />
+  </Operation>
+</Operations>
