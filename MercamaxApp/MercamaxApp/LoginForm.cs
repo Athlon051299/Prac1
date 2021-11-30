@@ -8,7 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> master
 
 namespace MercamaxApp
 {
@@ -107,6 +110,7 @@ namespace MercamaxApp
                 ErrorLogin();
             }
         }
+<<<<<<< HEAD
 
         private void btnPreparar_Click(object sender, EventArgs e)
         {
@@ -377,5 +381,7 @@ namespace MercamaxApp
         }
 
         
+=======
+>>>>>>> master
     }
 }

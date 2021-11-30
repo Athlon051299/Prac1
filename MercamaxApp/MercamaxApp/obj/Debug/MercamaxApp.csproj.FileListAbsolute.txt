@@ -9,6 +9,7 @@ G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.exe
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.pdb
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.LoginForm.resources
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.MainForm.resources
+<<<<<<< HEAD
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.AddClienteForm.resources
 G:\Mi unidad\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.ComprarForm.resources
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\bin\Debug\MercamaxApp.exe.config
@@ -24,3 +25,5 @@ C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.csproj.CoreCompileInputs.cache
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.exe
 C:\Users\maarc\OneDrive\Escritorio\MARCOS\Universidad\Base de datos_2\GIT\Prac1\MercamaxApp\MercamaxApp\obj\Debug\MercamaxApp.pdb
+=======
+>>>>>>> master

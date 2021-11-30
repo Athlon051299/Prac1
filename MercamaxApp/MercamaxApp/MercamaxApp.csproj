@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="AddClienteForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +59,8 @@
     <Compile Include="ComprarForm.Designer.cs">
       <DependentUpon>ComprarForm.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> master
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,12 +75,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="AddClienteForm.resx">
       <DependentUpon>AddClienteForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ComprarForm.resx">
       <DependentUpon>ComprarForm.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> master
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

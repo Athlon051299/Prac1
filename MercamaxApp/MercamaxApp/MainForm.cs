@@ -16,7 +16,11 @@ namespace MercamaxApp
         /// <summary>
         /// Conexión a la base de datos
         /// </summary>
+<<<<<<< HEAD
         public static SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BDMercamax;Integrated Security=True;MultipleActiveResultSets=False");
+=======
+        public static SqlConnection con= new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BDMercamax;Integrated Security=True");
+>>>>>>> master
 
         /// <summary>
         /// cc del usuario conectado
@@ -42,6 +46,7 @@ namespace MercamaxApp
         /// nombre del usuario
         /// </summary>
         public static string nombre;
+<<<<<<< HEAD
         
         /// <summary>
         /// DataTable de uso general
@@ -89,6 +94,12 @@ namespace MercamaxApp
             dataGridView3.Columns[3].HeaderText = "Fecha";
             dataGridView3.Columns[3].ReadOnly = true;
             dataGridView3.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;           
+=======
+
+        public MainForm()
+        {
+            InitializeComponent();
+>>>>>>> master
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -98,6 +109,7 @@ namespace MercamaxApp
 
             lblNombre.Text = "Bienvenido " + nombre;
 
+<<<<<<< HEAD
             if (!isEmploy) // modo cliente
             {
                 lblPuntos.Text = "Actualmente tiene " + GetPuntos().ToString() + " puntos";
@@ -247,6 +259,13 @@ namespace MercamaxApp
         {
             int puntos = 0;
 
+=======
+            //MessageBox.Show(isAdmin.ToString());
+        }
+
+        private void btnPuntos_Click(object sender, EventArgs e)
+        {
+>>>>>>> master
             try
             {
                 con.Open();
@@ -262,13 +281,18 @@ namespace MercamaxApp
                 {
                     while (rdr.Read())
                     {
+<<<<<<< HEAD
                         puntos=rdr.GetInt32(0);
+=======
+                        MessageBox.Show("El usuario " + cc.ToString() + " tiene " + rdr.GetInt32(0).ToString() + " puntos", "Sistema de puntos", MessageBoxButtons.OK, MessageBoxIcon.Information);
+>>>>>>> master
                     }
                 }
                 else
                 {
                     MessageBox.Show("El usuario " + cc.ToString() + " no aparece listado en el sistema de puntos", "Sistema de puntos", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+<<<<<<< HEAD
 
                 con.Close();
                 return puntos;
@@ -279,6 +303,15 @@ namespace MercamaxApp
                 con.Close();
                 return -1;
             }            
+=======
+            }
+            catch(SqlException ex)
+            {
+                MessageBox.Show("Ocurrió un error.\n\n" + ex.Message, "Error SQL", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            con.Close();
+>>>>>>> master
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
@@ -304,6 +337,7 @@ namespace MercamaxApp
             con.Close();
         }
 
+<<<<<<< HEAD
         private void dataGridView1_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
             if (e.ColumnIndex == 2) 
@@ -555,6 +589,80 @@ namespace MercamaxApp
            
 
             
+=======
+        private void btnBodega_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtBodega.Text))
+            {
+                return;
+            }
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand();
+
+                cmd = new SqlCommand("VerProductoBodega", MainForm.con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add(new SqlParameter("@codProd", Convert.ToInt32(txtBodega.Text)));
+
+                SqlDataReader rdr = cmd.ExecuteReader();
+
+                if (rdr.HasRows)
+                {
+                    while (rdr.Read())
+                    {
+                        MessageBox.Show("El producto " + txtBodega.Text + " tiene " + rdr.GetInt32(0).ToString() + " existencias en la seccion " + rdr.GetInt32(1).ToString(), "Consulta de bodega", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("El producto existe en la bodega", "Consulta de bodega", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Ocurrió un error.\n\n" + ex.Message, "Error SQL", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            con.Close();
+        }
+
+        private void btnGondola_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtGondola.Text))
+            {
+                return;
+            }
+            try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand();
+
+                cmd = new SqlCommand("VerProductoGondola", MainForm.con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add(new SqlParameter("@codProd", Convert.ToInt32(txtGondola.Text)));
+
+                SqlDataReader rdr = cmd.ExecuteReader();
+
+                if (rdr.HasRows)
+                {
+                    while (rdr.Read())
+                    {
+                        MessageBox.Show("El producto " + txtBodega.Text + " tiene " + rdr.GetInt32(0).ToString() + " existencias en la seccion " + rdr.GetInt32(1).ToString(), "Consulta en gondolas", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("El producto existe en las gondolas", "Consulta en gondolas", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Ocurrió un error.\n\n" + ex.Message, "Error SQL", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            con.Close();
+>>>>>>> master
         }
     }
 }

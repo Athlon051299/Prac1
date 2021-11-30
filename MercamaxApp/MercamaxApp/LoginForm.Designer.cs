@@ -39,7 +39,10 @@ namespace MercamaxApp
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.radClient = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+<<<<<<< HEAD
             this.btnPreparar = new System.Windows.Forms.Button();
+=======
+>>>>>>> master
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -127,6 +130,7 @@ namespace MercamaxApp
             this.radioButton2.Text = "Empleado";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
             // btnPreparar
             // 
             this.btnPreparar.Location = new System.Drawing.Point(34, 215);
@@ -137,15 +141,22 @@ namespace MercamaxApp
             this.btnPreparar.UseVisualStyleBackColor = true;
             this.btnPreparar.Click += new System.EventHandler(this.btnPreparar_Click);
             // 
+=======
+>>>>>>> master
             // LoginForm
             // 
             this.AcceptButton = this.btnAceptar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancelar;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(219, 251);
             this.ControlBox = false;
             this.Controls.Add(this.btnPreparar);
+=======
+            this.ClientSize = new System.Drawing.Size(219, 215);
+            this.ControlBox = false;
+>>>>>>> master
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radClient);
             this.Controls.Add(this.pictureBox1);
@@ -178,6 +189,9 @@ namespace MercamaxApp
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RadioButton radClient;
         private System.Windows.Forms.RadioButton radioButton2;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnPreparar;
+=======
+>>>>>>> master
     }
 }
